@@ -4,13 +4,45 @@
 
 <head>
     <style>
-        nav {
+       tr {
+    border-bottom: 1px solid gray;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px 15px 5px 15px;
+}
+tr:nth-child(even) {
+    background-color: lightgoldenrodyellow;
+}
+tr:hover {
+    background-color: yellow;
+}
+table {
+    margin-left: 2em;
+    background-color: burlywood;
+    border-radius: 25px;
+}
+nav {
     background: aliceblue;
-    width: 20em;
-    border: 10px solid aliceblue;
-        }
+    width: 15em;
+    border 10px solid aliceblue;
+    }
+
+nav {
+    margin-left: -8em;
+}
+nav:hover {
+    margin-left: 0;
+}
 body {
-    margin: 0;
+    margin:0;
+}
+nav ul{
+    padding-left: 25px;
 }
 img {
     width: 225px;
@@ -28,18 +60,16 @@ h1 {
     background: #22cff1;
     text-align: center;
     border-radius: 4rem;
-    margin:.25rem;
+    margin: .25rem;
 }
-section ul {
-    list-style-position: inside; padding-left: 1rem;
-}
+
     </style>
    
     <title>Historical Recipes</title>
     <h1>Recipes from history</h1>
     <img src="images/admiral2.jpg" alt="I'm dressed up in admiral's attire for my 40th birthday party" title="The theme of the party was Admiral Horatio Nelson" height=300>
 
-    <nav>
+     <nav>
         <ul>
             <li><a href="#custard">Custard Sauce</a></li>
             <li><a href="#spotted dog">Spotted Dog</a></li>
@@ -50,7 +80,8 @@ section ul {
 <body>
     <div id="intro">
     <p>I am a enthusiastic history buff and amateur cook. I will be listing some of my favorite recipes from the days of yore. To begin with, I'll start off with a simple custard sauce from eighteenth century England, although you will find that there is not much difference with modern cusatard sauces today. The addition of rose water, which adds a nice floral note tot he sauce, is the main difference you might notice with modern sauces of this kind. Some of the recipes from this book, and the first ones I used to dive into historical cooking can be found in the book <a href="https://www.wwnorton.com/POB/SpottedD/welcome.htm" target="_blank"><em>Lobscouse & Spotted Dog</em></a>, A gastronomic companion to the Aubrey/Maturin Novels by Patrick O'Brien.</p>
-    </div>
+        </div>
+    
     <section id="recipes">
     <h2>Eighteenth Century Recipes</h2>
     
@@ -62,15 +93,18 @@ section ul {
     <p>Custard sauce is a common ingredient for british desserts in the eighteenth centuury, as well as today. The steamed puddings of the time were savory, as sugar was cost prohibitive. The custard sauce provides the necessary sweetness without overpowering the puddings. The addition of rose water gives the sauce a nice eighteenth century touch, and differs from the standard sauces you may see in the UK today.</p>
         
     <h4>Ingredients</h4>
-    <ul>
-        <li>4 egg yolks</li>
-        <li>1/4 cup sugar</li>
-        <li>pinch of salt</li>
-        <li>1 3/4 cup milk</li>
-        <li>1/4 cup heavy cream</li>
-        <li>4 drops rose water</li>
-        <li>1 1/2 tbsp brandy</li>
-    </ul>
+   
+    <table>
+        <tr> <th>Ingredients</th> <th>Amount</th> </tr>
+        <tr>  <td>egg yolks</td> <td>4</td></tr>
+        <tr> <td>sugar</td> <td>1/4 cup</td></tr>
+        <tr> <td>salt</td> <td>pinch</td></tr>
+        <tr> <td>milk</td> <td>1 3/4 cup</td></tr>
+        <tr> <td>heavy cream</td> <td>1/4 cup</td></tr>
+        <tr> <td>rose water</td> <td>4 drops</td></tr>
+        <tr> <td>brandy</td> <td>1 1/2 tbsp</td></tr>
+        </table>    
+       
     
     <h4>Method</h4>
     <ol>
@@ -91,18 +125,20 @@ section ul {
         <p>Spotted dog is the classic example of steamed pudding of the nineteenth century. Easy to make, a tad savory with nice fruity notes from the currants, and a beautiful presentation make this a must have dish for anyone practicing historical cooking. The dish is also referred to as spotted dick.</p>
             
         <h4>Ingredients</h4>
-       <ul>
-                <li>4 cups of flour</li>
-                <li>1/4 cup suger</li>
-                <li>1/2 teaspoon salt</li>
-                <li>1 1/2 teaspoons ground cinnamon</li>
-                <li>1 3/4 cups dried currants</li>
-                <li>1/4 teaspoon ground nutmeg</li>
-                <li>1/2 pound suet, finely grated</li>
-                <li>1 cup milk</li>
-                <li>2 eggs, lightly beaten</li> 
-            </ul>
-            
+          
+            <table>
+                <tr> <th>Ingredients</th> <th>Amount</th> </tr> <td>flour</td> <td>4 cups</td>
+                <tr> <td>sugar</td> <td>1/4 cup</td></tr>
+                <tr> <td>salt</td> <td>1/2 tsp</td></tr>
+                <tr> <td>ground cinnamon</td> <td>1 1/2 tsps</td></tr>
+                <tr><td>dried currants</td> <td>1 3/4 cups</td></tr>
+                <tr> <td>ground nutmeg</td> <td>1/4 tsp</td></tr>
+                <tr> <td>suet (finely grated)</td> <td>1/2 lb.</td></tr>
+                <tr> <td>milk</td> <td>1 cup</td></tr>
+                <tr> <td>eggs (lightly beaten)</td> <td>2</td></tr>
+                
+            </table>
+                      
         <h4>Method</h4>
             <ol>
                 <li>In a large bowl, mix the flour, sugar, salt, cinnamon, and nutmeg</li>
@@ -115,11 +151,10 @@ section ul {
             </ol>
             
             <p>Serves 12</p>
-       
+        
         </article>
         
         </section>
 
     </body>
 </html>
-
